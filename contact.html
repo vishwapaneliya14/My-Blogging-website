@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact — Everyday at PPSU</title>
+  <meta name="description" content="Get in touch with Everyday at PPSU, a student blog about life at P P Savani University." />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="wrap">
+      <a class="brand" href="index.html">
+        <span class="brand-name">Everyday at PPSU</span>
+        <span class="brand-sub">A student's week at P P Savani University</span>
+      </a>
+      <nav class="main-nav" aria-label="Main navigation">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="contact.html" class="active">Contact</a>
+      </nav>
+      <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false">
+        <span></span>
+      </button>
+    </div>
+  </header>
+
+  <section class="page-hero">
+    <div class="wrap">
+      <h1>Say hello</h1>
+      <p>
+        Spotted something wrong, have a story from your own hostel block, or
+        just want to say hi? Drop a message below.
+      </p>
+    </div>
+  </section>
+
+  <section class="wrap">
+   <div class="content-section">
+    <form class="contact-form" id="contact-form" novalidate>
+      <div class="form-field">
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" />
+        <div class="form-error" id="name-error"></div>
+      </div>
+
+      <div class="form-field">
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" />
+        <div class="form-error" id="email-error"></div>
+      </div>
+
+      <div class="form-field">
+        <label for="message">Message</label>
+        <textarea id="message" name="message" rows="5"></textarea>
+        <div class="form-error" id="message-error"></div>
+      </div>
+
+      <button type="submit" class="submit-btn">Send message</button>
+
+      <div class="form-success" id="form-success"></div>
+    </form>
+   </div>
+  </section>
+
+  <footer class="site-footer">
+    <div class="wrap footer-inner">
+      <p>&copy; <span id="year"></span> Everyday at PPSU · P P Savani University · Made by Vishwa Paneliya (25SE02ML091)</p>
+      <div class="footer-links">
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+  <script src="js/contact.js"></script>
+</body>
+</html>
